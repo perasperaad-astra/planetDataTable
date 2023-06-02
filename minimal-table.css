@@ -1,0 +1,52 @@
+html {
+    font-family: sans-serif;
+  }
+
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+
+  thead {
+    font-weight: 700; 
+    background-color: rgb(230, 230, 230);
+  }
+
+
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+  }
+
+
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(245,245,245); 
+  }
+  
+  caption {
+    padding: 10px;
+  }
+
+#bold {
+    font-weight: 700; 
+  }
+
+  
+
+  /* 1. Is it correct that the specificity of the tr:nth-child is what's overriding my styling? How can I override it with higher specificity here? 
+  // 2. Why is it that chrome dev tools says green IS applied as a background color if I hover over the html element of col 3 in colgroup?*/
